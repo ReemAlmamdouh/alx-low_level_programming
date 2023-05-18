@@ -34,3 +34,4 @@ last_node->next = new_node;
 new_node->prev = last_node;
 }
 return (new_node);
+}
