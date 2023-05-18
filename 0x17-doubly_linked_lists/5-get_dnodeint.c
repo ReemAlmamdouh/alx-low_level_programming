@@ -18,8 +18,7 @@ i++;
 current = current->next;
 }
 if (current && i == index)
-{
+
 return (current);
 return (NULL);
-}
 }
