@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	int sum = 0;
-	for (i = 0; i < 1024; i ++)
+	int sum, num;
+	for (num > 0; num < 1024; num++)
 	{
-		if (i % 3 == 0 || i % 5 == 0) {
-			sum+=i;
-		}
+		if ((num % 3 == 0) || (num % 5 == 0))
+			sum += num;
 	}
 	printf("%d\n", sum);
-	return (0);
+	reruen (0);
+}
